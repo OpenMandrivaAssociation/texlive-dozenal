@@ -1,3 +1,9 @@
+# revision 16193
+# category Package
+# catalog-ctan /fonts/dozenal
+# catalog-date 2009-11-26 10:36:51 +0100
+# catalog-license lppl
+# catalog-version 3.1
 Name:		texlive-dozenal
 Version:	3.1
 Release:	1
@@ -181,6 +187,7 @@ source and in Adobe Type 1 format.
 %doc %{_texmfdistdir}/doc/fonts/dozenal/testfdzchars.tex
 #- source
 %doc %{_texmfdistdir}/source/fonts/dozenal/dozenal.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -191,3 +198,5 @@ source and in Adobe Type 1 format.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
