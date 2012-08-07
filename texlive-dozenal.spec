@@ -1,12 +1,12 @@
-# revision 16193
+# revision 26426
 # category Package
 # catalog-ctan /fonts/dozenal
-# catalog-date 2009-11-26 10:36:51 +0100
+# catalog-date 2011-04-10 19:50:06 +0200
 # catalog-license lppl
 # catalog-version 3.1
 Name:		texlive-dozenal
 Version:	3.1
-Release:	2
+Release:	3
 Summary:	Typeset documents using base twelve numbering (also called "dozenal")
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/dozenal
@@ -24,12 +24,12 @@ The package supports typesetting documents whose counters are
 represented in base twelve, also called "dozenal". It includes
 a macro by David Kastrup for converting positive whole numbers
 to dozenal from decimal (base ten) representation. The package
-also also includes a few other macros and redefines all the
-standard counters to produce dozenal output. Fonts, in Roman,
-italic, slanted, and boldface versions, provide ten and eleven
-(the Pitman characters preferred by the Dozenal Society of
-Great Britain). The fonts were designed to blend well with the
-Computer Modern fonts, and are available both as MetaFont
+also includes a few other macros and redefines all the standard
+counters to produce dozenal output. Fonts, in Roman, italic,
+slanted, and boldface versions, provide ten and eleven (the
+Pitman characters preferred by the Dozenal Society of Great
+Britain). The fonts were designed to blend well with the
+Computer Modern fonts, and are available both as Metafont
 source and in Adobe Type 1 format.
 
 %post
