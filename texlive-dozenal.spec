@@ -188,3 +188,21 @@ source and in Adobe Type 1 format.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.1-3
++ Revision: 812225
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.1-2
++ Revision: 751070
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.1-1
++ Revision: 718254
+- texlive-dozenal
+- texlive-dozenal
+- texlive-dozenal
+- texlive-dozenal
+
