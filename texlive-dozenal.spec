@@ -1,12 +1,12 @@
-# revision 26426
+# revision 30592
 # category Package
 # catalog-ctan /fonts/dozenal
-# catalog-date 2011-04-10 19:50:06 +0200
+# catalog-date 2013-05-20 17:36:30 +0200
 # catalog-license lppl
-# catalog-version 3.1
+# catalog-version 4.0
 Name:		texlive-dozenal
-Version:	3.1
-Release:	3
+Version:	4.0
+Release:	1
 Summary:	Typeset documents using base twelve numbering (also called "dozenal")
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/dozenal
@@ -42,6 +42,12 @@ source and in Adobe Type 1 format.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/fonts/afm/public/dozenal/fdzb8a.afm
+%{_texmfdistdir}/fonts/afm/public/dozenal/fdzbi8a.afm
+%{_texmfdistdir}/fonts/afm/public/dozenal/fdzbs8a.afm
+%{_texmfdistdir}/fonts/afm/public/dozenal/fdzi8a.afm
+%{_texmfdistdir}/fonts/afm/public/dozenal/fdzr8a.afm
+%{_texmfdistdir}/fonts/afm/public/dozenal/fdzs8a.afm
 %{_texmfdistdir}/fonts/map/dvips/dozenal/fdz.map
 %{_texmfdistdir}/fonts/source/public/dozenal/dozchars10.mf
 %{_texmfdistdir}/fonts/source/public/dozenal/dozchars12.mf
@@ -188,21 +194,3 @@ source and in Adobe Type 1 format.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.1-3
-+ Revision: 812225
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.1-2
-+ Revision: 751070
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.1-1
-+ Revision: 718254
-- texlive-dozenal
-- texlive-dozenal
-- texlive-dozenal
-- texlive-dozenal
-
