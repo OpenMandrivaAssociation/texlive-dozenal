@@ -6,7 +6,7 @@
 # catalog-version 4.0
 Name:		texlive-dozenal
 Version:	4.0
-Release:	8
+Release:	9
 Summary:	Typeset documents using base twelve numbering (also called "dozenal")
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/dozenal
