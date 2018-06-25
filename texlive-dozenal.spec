@@ -1,5 +1,5 @@
 Name:		texlive-dozenal
-Version:	7.1
+Version:	7.2
 Release:	1
 Summary:	Typeset documents using base twelve numbering (also called "dozenal")
 Group:		Publishing
