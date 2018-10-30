@@ -1,6 +1,6 @@
 Name:		texlive-dozenal
 Version:	7.2
-Release:	2
+Release:	3
 Summary:	Typeset documents using base twelve numbering (also called "dozenal")
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/dozenal
