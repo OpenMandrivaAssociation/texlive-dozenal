@@ -3,7 +3,7 @@ Version:	47680
 Release:	2
 Summary:	Typeset documents using base twelve numbering (also called "dozenal")
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/dozenal
+URL:		https://www.ctan.org/tex-archive/fonts/dozenal
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dozenal.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dozenal.doc.r%{version}.tar.xz
